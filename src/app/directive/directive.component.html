@@ -1,0 +1,20 @@
+<main>
+<h1>指令:</h1>
+<p class="text"> 
+	Angular 模板是动态的。当 Angular 渲染它们时，它会根据指令提供的操作对 DOM 进行转换。
+	指令跟组件(Component)非常类似，其实组件就相当于一个指令。指令地位崇高，包括结构型指令和属性指令。
+</p>	
+<p class="text"> 
+	1：结构型 指令通过在 DOM 中添加、移除和替换元素来修改布局。
+	2：属性型 指令修改一个现有元素的外观或行为。 在模板中，它们看起来就像是标准的 HTML 属性，故名。
+</p>
+
+<pre>&lt;li *ngFor="let hero of heroes"&gt;&lt;/li&gt;
+&lt;hero-detail *ngIf="selectedHero"&gt;&lt;/hero-detail&gt;
+</pre>
+
+<pre>
+&lt;input [(ngModel)]="hero.name"&gt;
+</pre>
+<a class="next-btn" routerLink="/service">下一步</a>
+</main>

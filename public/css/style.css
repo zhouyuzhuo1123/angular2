@@ -1,0 +1,22 @@
+body {
+    background: #0147A7;
+    color: #fff;
+}
+h1{
+	font-size: 2rem;
+	color: yellow;
+}
+
+a:hover{
+	color: #FFF;
+	text-decoration:none;
+}
+.next-btn{
+	display: block;
+    color: #FFF;
+    padding: 10px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:1rem;
+}
